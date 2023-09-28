@@ -1,15 +1,19 @@
-# ChatGPT Prompt Engineering for Developers
-Jupyter code notebooks of "ChatGPT Prompt Engineering for Developers" by DeepLearning.AI and OpenAI.
+# Gradio
+Building Generative AI Applications with Gradio
+Want to quickly turn your ideas for potential #GENAI applications into something tangible and usable and share them with others over the web? 
 
-In ChatGPT Prompt Engineering for Developers, you will learn how to use a large language model (LLM) to quickly build new and powerful applications.  Using the OpenAI API, you’ll be able to quickly build capabilities that learn to innovate and create value in ways that were cost-prohibitive, highly technical, or simply impossible before now.
+DeepLearning.AI together with Hugging Face has launched another free short course on using #Gradio to very quickly create user interfaces for various LLM applications. 
 
-This short course taught by Isa Fulford (OpenAI) and Andrew Ng (DeepLearning.AI) will describe how LLMs work, provide best practices for prompt engineering, and show how LLM APIs can be used in applications for a variety of tasks, including:
+In this course you will learn to: 
 
-- Summarizing (e.g., summarizing user reviews for brevity)
-- Inferring (e.g., sentiment classification, topic extraction)
-- Transforming text (e.g., translation, spelling & grammar correction)
-- Expanding (e.g., automatically writing emails)
+🤗 Create an NLP application for image to text and text to image. 
 
-In addition, you’ll learn two key principles for writing effective prompts, how to systematically engineer good prompts, and also learn to build a custom chatbot. 
 
-All concepts are illustrated with numerous examples, which you can play with directly in our Jupyter notebook environment to get hands-on experience with prompt engineering. 
+🤗 Using a pre-built Gradio chatbot to interact with different LLMs (open source like Falcon and commercial solutions like those from openAI and Google).
+
+🤗  A very useful feature is that you can share the application you create with others via a link hosted by Gradio, with just a single configuration parameter: demo.launch(share=True, server_port=int(os.environ['PORT2'])). 
+
+Five notebooks are provided. You need a Hugging Face API_KEY to run the exercises. However, you can also run them on your local computer. But the notebooks are not downloadable. I have collected them all in single #Jupyterlab.
+
+
+
