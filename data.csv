@@ -1,4 +1,4 @@
-id,name,age,occ
-2,Vishal,22,engineer
-3,Kushal,25,doctor
-1,Aman,24,accountant
+id,name,age,occ,salary
+2,Vishal,22,engineer,
+3,Kushal,25,doctor,70000
+1,Aman,24,accountant,
